@@ -1,0 +1,123 @@
+﻿/* defaults */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: monospace;
+	outline: none;
+}
+
+html{
+	height:100%;
+}
+
+body {
+	height: 100%;
+}
+
+/* Header */
+header {
+	height: 80px;
+	position: relative;
+	margin-bottom: 15px;
+	background: rgba(173,16,48,0.9);
+}
+
+header > h1 {
+  position: absolute;
+  bottom: 20px;
+  padding-left: 10px;
+  color: white;
+}
+
+/* Main */
+.allContainer {
+	background: #eee;
+	border: 1px solid #dadada;
+	border-radius: 2px;
+	width: 90%;
+	max-width: 550px;
+	margin: 0 auto;
+}
+.innerContainer {
+	margin: 20px;
+}
+
+h2 {
+	font-size: 2rem;
+	margin-bottom: 5px;
+}
+
+form {
+	margin-bottom: 5px;
+}
+input {
+	height: 34px;
+	border-radius: none;
+	border: 1px solid #d3d3d3;
+	font-weight: bold;
+	padding-left: 5px;
+}
+button {
+	font-size: 1rem;
+	padding: 8px 8px;
+	font-weight: bold;
+	background: rgba(173,16,48,0.9);
+	color: white;
+	border: none;
+	border-radius: 3px;
+}
+
+button:hover {
+	background: rgba(173,16,48,0.8);
+	cursor: pointer;
+}
+
+.itemContainer {
+	width: 100%;
+	border: 1px solid #d3d3d3;
+	margin-bottom:20px ;
+}
+
+.items {
+	padding: 11px 12px;
+	border-top: 1px solid #d3d3d3;
+	background: white;
+	list-style-type: none;
+	position: relative;
+	height: 55px;
+
+}
+
+#button2 {
+	width:100% ;
+}
+
+.itemContainer :first-child {
+	border-top: none;
+}
+
+#output {
+	border-top: 1px solid #d3d3d3;
+	display: none;
+	padding: 8px 12px;
+	background: white;
+	text-align: center;
+}
+
+.delete {
+	background: red;
+	position: absolute;
+	right: 10px;
+	bottom: 12px;
+	color: white;
+	padding: 7px 4px;
+	cursor: pointer;
+}
+.delete:hover {
+	background: rgba(141,0,0,0.77);
+
+}
+
+
+
